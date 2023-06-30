@@ -1,4 +1,5 @@
-﻿import java.awt.Container;
+﻿/* import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,7 +29,31 @@ public class MyFrame extends JFrame
         container.add(button2);
         container.add(button9);
 
-        //button1.addActionListener();
+        
+        button1.addActionListener(new ActionListener() 
+        {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                textField2.setText("Вы выбрали холодный напиток");
+            }
+        });
+
+        button2.addActionListener(new ActionListener() 
+        {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                textField2.setText("Вы выбрали горячий напиток");
+            }
+        });
+
+        button9.addActionListener(new ActionListener() 
+        {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                textField2.setText("Вы работник обслуживающей организции и хотите проверить автомат");
+            }
+        });
 
     }
-}
+} */

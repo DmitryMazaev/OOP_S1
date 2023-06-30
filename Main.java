@@ -18,8 +18,8 @@ public class Main
 
         Scanner in = new Scanner(System.in);
 
-        MyFrame myFrame = new MyFrame();
-        myFrame.setVisible(true);
+        /* MyFrame myFrame = new MyFrame();
+        myFrame.setVisible(true); */
         
             double vendingMachineCash = 0; //Общее количество денег в автомате
             while (true)
